@@ -1,0 +1,134 @@
+/* ESTILOS GERAIS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+a, i{
+    transition: .3s;
+    text-decoration: none;
+}
+
+.secundary-color{
+    color: #222;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+/* BOTÃO */
+
+.btn2{
+    text-decoration: none;
+    background-color: #25282e;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn2:hover{
+    background-color: #111;
+    transform: scale(1.05);
+}
+
+/* HEADER */
+
+#header{
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #25282e, #3b3f46);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+#logo-container h1{
+    font-size: 32px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width: 1140px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* IMAGEM PRINCIPAL */
+
+#main-image-container{
+    margin-bottom: 30px;
+}
+
+#img50{
+    background-image: url("/img/g_4.jpg");
+    height: 500px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* INFORMAÇÕES DA OBRA */
+
+#art-info{
+    margin-bottom: 30px;
+}
+
+#art-info h1{
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+#art-info p{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #111;
+}
+
+/* CAIXA DE DETALHES */
+
+#box{
+    background: #fafafa;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+#box h3{
+    font-size: 22px;
+    color: #000;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    color: #111;
+}
+
+.item:last-child{
+    border-bottom: none;
+}
